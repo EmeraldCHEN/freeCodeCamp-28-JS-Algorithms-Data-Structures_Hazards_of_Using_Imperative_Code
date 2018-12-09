@@ -1,3 +1,17 @@
+/* The final list of open tabs should be: 
+['FB', 'Gitter', 'Reddit', 'Twitter', 'Medium', 'new tab', 'Netflix', 'YouTube', 
+'Vine', 'GMail', 'Work mail', 'Docs', 'freeCodeCamp', 'new tab'] 
+
+But the output is slightly different as below:
+
+FB,Gitter,Reddit,Twitter,Medium,new tab,Netflix,YouTube,GMail,Work mail,Docs,freeCodeCamp,new tab
+
+as  'Vine' is missing...
+
+Work through the code and  figure out the problem  */
+
+
+
 // tabs is an array of titles of each site open within the window
 var Window = function(tabs) {
   this.tabs = tabs; // we keep a record of the array inside the object
