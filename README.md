@@ -7,4 +7,6 @@ The code editor shows an implementation of this functionality with functions for
 Instructions
 Run the code in the editor. It's using a method that has side effects in the program, causing incorrect output. The final list of open tabs should be ['FB', 'Gitter', 'Reddit', 'Twitter', 'Medium', 'new tab', 'Netflix', 'YouTube', 'Vine', 'GMail', 'Work mail', 'Docs', 'freeCodeCamp', 'new tab'] but the output will be slightly different.
 
-Work through the code and see if you can figure out the problem, then advance to the next challenge to learn more.
+The issue  is with the splice call in the tabClose() function. Unfortunately, splice changes the original array it is called on, so the second call to it used a modified array, and gave unexpected results.
+
+Work through the code and see if you can figure out the problem
