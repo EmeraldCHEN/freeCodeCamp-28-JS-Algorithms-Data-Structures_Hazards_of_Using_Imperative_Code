@@ -8,8 +8,7 @@ FB,Gitter,Reddit,Twitter,Medium,new tab,Netflix,YouTube,GMail,Work mail,Docs,fre
 
 as  'Vine' is missing...
 
-Work through the code and  figure out the problem  */
-
+ */
 
 
 // tabs is an array of titles of each site open within the window
