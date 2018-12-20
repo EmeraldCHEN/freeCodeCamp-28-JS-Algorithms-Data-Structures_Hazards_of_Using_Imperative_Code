@@ -49,3 +49,6 @@ var finalTabs = socialWindow
                     .join(workWindow.tabClose(1).tabOpen());
 
 alert(finalTabs.tabs);
+
+
+// Retrieved from
