@@ -51,4 +51,4 @@ var finalTabs = socialWindow
 alert(finalTabs.tabs);
 
 
-// Retrieved from
+// Retrieved from https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/functional-programming/understand-the-hazards-of-using-imperative-code/
