@@ -3,7 +3,9 @@
 
 But the output is slightly different as below:
 ['FB', 'Gitter', 'Reddit', 'Twitter', 'Medium', 'new tab', 'Netflix', 'YouTube', 'GMail', 'Work mail', 'Docs', 'freeCodeCamp', 'new tab'] 
- as  'Vine' is missing... */
+ as  'Vine' is missing... 
+ 
+In line 32 & 33 shows one possible solution to fix the bug.                 */
 
 
 // tabs is an array of titles of each site open within the window
@@ -30,8 +32,8 @@ Window.prototype.tabClose = function (index) {
    let tabsBeforeIndex = this.tabs.slice(0, index); 
    let tabsAfterIndex = this.tabs.slice(index+1); 
    
-   as the original array will not be modified when using the slice() method which is easier than the splice() method that changes the contents of an array
-   also, the index is zero based and if accidentally forget that it could sometimes cause sneaky bugs
+   As the original array will not be modified when using the slice() method which is easier to manage than the splice() method that changes the contents of an array
+   Also, the index is zero based and if accidentally forget that it could sometimes cause sneaky bugs
   */
   var tabsBeforeIndex = this.tabs.splice(0, index); // get the tabs before the tab
   var tabsAfterIndex = this.tabs.splice(index); // get the tabs after the tab
